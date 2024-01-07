@@ -39,7 +39,7 @@ const TodoContent = () => {
         <h1>todo list</h1>
     </div>
     
-        <input type='text' placeholder='add todo' ref={input} className='theInput'/>
+        <input type='text' placeholder='✍️add todo' ref={input} className='theInput'/>
         <input type='submit' value={"submit"} onClick={handle} className='btn'/>
 
     <div className='list-item'>
